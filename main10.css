@@ -1,0 +1,5 @@
+.sprite{
+	background: url('img-sprite.png') no-repeat -5px -55px;
+	width: 41px;
+	height: 40px;
+}

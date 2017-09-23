@@ -1,0 +1,68 @@
+body { /* selektor znacznika body 001*/
+	border: solid 5px hotpink;
+	background-color: #eee;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+article{ /* selektor znacznika article 001*/
+	border: dotted 5px aqua;
+	padding: 100px;
+}
+
+.cRed{ /* selektor klassy o nazwie cRed 010*/
+	color: #ff0000;
+}
+
+.cGreen { /*  .cRed .cGreen 2*10 = 020*/
+	color: #00ff00;
+}
+
+.f700{
+	font-weight: 700;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shrikhand', cursive;
+}
+
+.f500{
+	font-weight: 500;
+}
+
+
+.contact{
+	background-image: url(https://img.cda.pl/obr/oryginalne/850ca7d90566b9ed82c60d9d50771230.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#my-article{ /* selektor id  100*/
+	border.solid 20px red;
+}
+
+a{
+	font-size: 60px;
+}
+
+a:hover{
+	color:red;
+	font-size: 120px;
+	text-decoration: none;
+}
+
+img.photo1{
+	width: 100px;
+}
+img.photo2{
+	width: 200px;
+}
+
+.color1{
+	color: red;
+	font-size: 400px;
+}
+.color2{
+	color: green;
+	font-size: 400px;
+}
+
+

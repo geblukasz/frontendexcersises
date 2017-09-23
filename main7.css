@@ -1,0 +1,49 @@
+nav{
+	position: fixed;
+}
+ul{
+	padding: 100px;
+	list-style: none;
+	
+}
+li{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	padding: 5px 8px;
+	border: solid 5px black;
+	color: black;
+	position: relative;
+}
+
+a:nth-child(1){
+	top: 10px;
+}
+a:nth-child(2){
+	bottom: 20px;
+}
+a:nth-child(3){
+	right: 10px;
+}
+a:nth-child(4){
+	left: 100px;
+}
+a span b{
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	background-color: red;
+	color: white;
+	padding: 3px;
+}
+
+.abc{
+	height: 1000px;
+	background-color: grey;
+}
+
+.abc1{
+	height: 1000px;
+	background-color: green;
+}

@@ -1,0 +1,39 @@
+form{
+	width: 500px;
+	margin: 0 auto;
+}
+input:focus,textarea:focus{
+	background-color: #333;
+}
+
+input[type="text"], input[type="password"]{
+	width: 300px;
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 30px;
+	padding: 5px 7px;
+}
+
+label{
+	font-size: 18px;
+	font-weight: 500;
+}
+
+fieldset{
+	background-color: aqua;
+}
+input[type="submit"],[type="reset"]{
+	border:0;
+	background-color:#fff;
+	padding: 8px 15px;
+	font-size: :15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+input[type="submit"]:hover,[type="reset"]:hover{
+	background-color: #000;
+	color: #fff;
+}
+input[type="reset"]{
+	float:right;
+}

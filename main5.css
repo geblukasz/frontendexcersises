@@ -1,0 +1,7 @@
+div{
+	width: 30%;
+	height: 90px;
+	display: inline-block;
+	overflow: scroll;
+	vertical-align: top;
+}

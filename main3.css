@@ -1,0 +1,10 @@
+div{
+	width: 300px;
+	height: 200px;
+	background-color: aqua;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 40px;
+	outline: solid 40px green;
+	box-shadow: 0px 0px 0px 20px green;
+}

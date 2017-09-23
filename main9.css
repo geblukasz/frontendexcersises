@@ -1,0 +1,12 @@
+div {
+  width: 651px;
+  height: 418px;
+  background-image: url(https://img.cda.pl/obr/oryginalne/850ca7d90566b9ed82c60d9d50771230.jpg);
+  line-height: 418px;
+}
+
+div p {
+  color: blue;
+  font-size: 40px;
+  text-align: center;
+}
